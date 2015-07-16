@@ -1,3 +1,6 @@
+
+import java.io.IOException;
+
 /**
  * UTFPR - Universidade Tecnológica Federal do Paraná
  * DAINF - Departamento Acadêmico de Informática
@@ -6,7 +9,7 @@
  * @author Wilson Horstmeyer Bogado <wilson@utfpr.edu.br>
  */
 public class Pratica91 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException, IOException {
         Runtime runTime = Runtime.getRuntime();
         int divisor = 1048576; //1024*1024
         String os = System.getProperty("os.name");
